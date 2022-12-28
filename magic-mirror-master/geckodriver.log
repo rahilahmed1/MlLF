@@ -1,0 +1,41 @@
+1544620936062	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mohammed\\AppData\\Local\\Temp\\rust_mozprofile.xuchVBXA00Za"
+[Parent 8556, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 8556, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 8556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4008, Chrome_ChildT
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 2
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1544620976915	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mohammed\\AppData\\Local\\Temp\\rust_mozprofile.0vsyfofmF0k2"
+1544620986799	Marionette	INFO	Listening on port 60548
+1544620987144	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11
+onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Child 5616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Childconsole.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 3764, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1544622132003	Marionette	INFO	Stopped listening on port 60548
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
